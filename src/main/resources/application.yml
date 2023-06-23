@@ -6,6 +6,3 @@ eureka:
     fetchRegistry: false
   instance:
     hostname: ${EUREKA_HOST:eureka-production-movies.up.railway.app}
-    
-  server:
-    renewal-percent-threshold: 0.85
