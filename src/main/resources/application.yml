@@ -1,0 +1,11 @@
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  instance:
+    hostname: ${EUREKA_HOST:172.17.0.3}
+    
+  server:
+    renewal-percent-threshold: 0.85
